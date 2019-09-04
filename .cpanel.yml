@@ -11,7 +11,7 @@ deployment:
     - /bin/cp public/css/* $CSSPATH
     
     # to put js file in public_html/js
-    - export JSPATH=/home/michael3/public_html/css
+    - export JSPATH=/home/michael3/public_html/js
     - /bin/cp public/js/* $JSPATH
 
     # to put js file in public_html/js
