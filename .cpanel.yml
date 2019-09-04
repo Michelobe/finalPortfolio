@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/michael3/repositories/finalPortfolio/public/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/main.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/michael3/public_html
+    - /bin/cp /home/michael3/repositories/finalPortfolio/public/index.html $DEPLOYPATH
+    - /bin/cp /home/michael3/repositories/finalPortfolio/public/css/main.css $DEPLOYPATH
