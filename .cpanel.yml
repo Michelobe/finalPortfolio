@@ -5,6 +5,6 @@ deployment:
     - /bin/cp public/index.html $DEPLOYPATH
     - /bin/cp public/landing.html $DEPLOYPATH
     - /bin/cp public/generic.html $DEPLOYPATH
-    - /bin/cp public/css/ $DEPLOYPATH
-    - /bin/cp public/js/ $DEPLOYPATH
-    - /bin/cp public/img/ $DEPLOYPATH
+    - /bin/cp public/css/* $DEPLOYPATH
+    - /bin/cp public/js/* $DEPLOYPATH
+    - /bin/cp public/img/* $DEPLOYPATH
